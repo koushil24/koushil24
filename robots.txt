@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://koushil24.github.io/sitemap.xml
