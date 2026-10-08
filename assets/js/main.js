@@ -19,7 +19,8 @@ $('st').innerHTML=D.ai.stages.map(function(s,i){return '<li'+(i==D.ai.current?' 
 $('ai-u').innerHTML=D.ai.uses.map(function(u){return '<div class="card"><p>'+E(u)+'</p></div>'}).join('')+'<div class="card"><p class="s">AI tools currently used</p><p>'+E(D.ai.tools)+'</p></div>';
 function chips(a){return a.map(function(t){return '<li>'+E(t)+'</li>'}).join('')}
 $('ln').innerHTML=chips(D.learning.now);$('lx').innerHTML=chips(D.learning.next);
-$('ce').innerHTML=D.certificates.map(function(g){return '<div class="cg"><h3>'+E(g.group)+'</h3><div class="cl">'+g.items.map(function(i){return '<a href="assets/certificates/'+i.file+'" target="_blank" rel="noopener">'+E(i.title)+'<small>'+E(i.by)+'</small></a>'}).join('')+'</div></div>'}).join('');
+$('ce').innerHTML=D.certificates.map(function(g){return '<div class="cg"><h3>'+E(g.group)+'</h3><div class="cl">'+g.items.map(function(i){return '<div class="ci"><img loading="lazy" src="assets/certificates/'+i.file+'" alt="Certificate thumbnail: '+E(i.title)+'" width="96" height="68"><div><b>'+E(i.title)+'</b><small>'+E(i.by)+'</small></div></div>'}).join('')+'</div></div>'}).join('');
+document.querySelectorAll('.ci img').forEach(function(im){im.addEventListener('error',function(){im.style.display='none'})});
 $('ac').innerHTML=['Co-author of two papers published in IJCRT (Smart Entry Counter, 2024; Eco Smart Plasma System, 2025).','Presented Smart Entry Counter at the National Conference NCSSPES, VVIET Mysuru.','Participant, AvEEEshkar 2024 and 2025 state-level project competitions.'].map(function(t){return '<li>'+E(t)+'</li>'}).join('');
 $('c-t').textContent='Open to opportunities in protection, relay testing, commissioning and service engineering.';
 $('c-b').innerHTML='<a class="btn pri" href="mailto:'+P.email+'">'+P.email+'</a>'+L(P.linkedin,'<span class="btn">LinkedIn</span>')+L(P.github,'<span class="btn">GitHub</span>');
