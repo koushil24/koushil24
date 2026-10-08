@@ -50,5 +50,34 @@ D.profile = {
    "Vidyavardhaka Sangha ITI, Mysuru",
    "2018"
   ]
+ ],
+ "statement": "Building my career in protection relay testing, electrical engineering and AI-assisted engineering.",
+ "now": "Currently Technical Assistant, Testing Department at AVANA Electrosystems Ltd. (since Sep 2026)",
+ "glance": [
+  [
+   "Now",
+   "Technical Assistant, AVANA Electrosystems Ltd.",
+   "#experience"
+  ],
+  [
+   "Focus",
+   "Numerical protection relay testing",
+   "#experience"
+  ],
+  [
+   "Learning",
+   "IEC 61850 / GOOSE, SCADA and automation",
+   "#learning"
+  ],
+  [
+   "Building",
+   "K_24 Electrical and K_24 AI for My Career",
+   "#projects"
+  ],
+  [
+   "AI stage",
+   "AI-Assisted Engineer",
+   "#ai"
+  ]
  ]
 };
