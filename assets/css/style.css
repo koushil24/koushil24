@@ -50,3 +50,5 @@ footer{padding:26px 0;border-top:1px solid var(--bd);color:var(--mu);font-size:1
 :focus-visible{outline:2px solid var(--ac2);outline-offset:3px}
 .fgrid{display:grid;grid-template-columns:1.5fr 1fr 1fr;gap:20px;align-items:start}.fn{margin:0;font-weight:700;color:var(--tx);letter-spacing:.06em}.fgrid p{margin:.2em 0}.fl{display:flex;gap:16px}.fl a{color:var(--mu)}
 @media(max-width:860px){.hero-grid{grid-template-columns:1fr}.art{display:none}.fgrid{grid-template-columns:1fr}.lnk{width:100%;text-align:center;padding:10px}}
+.ci{display:flex;gap:12px;align-items:center;background:var(--card);border:1px solid var(--bd);border-radius:12px;padding:10px 12px;font-size:14px}
+.ci img{flex:none;width:96px;height:68px;object-fit:cover;object-position:top;border-radius:6px;border:1px solid var(--bd);background:#fff}.ci small{display:block;color:var(--mu)}
