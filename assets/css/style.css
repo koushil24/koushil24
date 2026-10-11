@@ -52,3 +52,11 @@ footer{padding:26px 0;border-top:1px solid var(--bd);color:var(--mu);font-size:1
 @media(max-width:860px){.hero-grid{grid-template-columns:1fr}.art{display:none}.fgrid{grid-template-columns:1fr}.lnk{width:100%;text-align:center;padding:10px}}
 .ci{display:flex;gap:12px;align-items:center;background:var(--card);border:1px solid var(--bd);border-radius:12px;padding:10px 12px;font-size:14px}
 .ci img{flex:none;width:96px;height:68px;object-fit:cover;object-position:top;border-radius:6px;border:1px solid var(--bd);background:#fff}.ci small{display:block;color:var(--mu)}
+.wv{position:absolute;left:0;right:0;bottom:0;height:90px;overflow:hidden;opacity:.28;pointer-events:none}.wv svg{width:2400px;height:90px;animation:drift 14s linear infinite}@keyframes drift{to{transform:translateX(-600px)}}
+.art{opacity:.2}.trace{display:block;width:100%;height:38px;color:var(--ac2);margin-bottom:8px}.trace path{stroke-dasharray:1;animation:trace 6s ease-in-out infinite}.trip{fill:#ff6b6b;font:700 11px system-ui;opacity:0;animation:trip 6s infinite}
+@keyframes trace{0%{stroke-dashoffset:1}60%,100%{stroke-dashoffset:0}}@keyframes trip{0%,58%{opacity:0}66%,92%{opacity:1}100%{opacity:0}}
+h2::after{content:"";display:block;width:0;height:3px;margin-top:8px;background:var(--ac);border-radius:3px;transition:width .8s .2s}.in h2::after{width:48px}
+.tl li,.stages li{opacity:0;transform:translateY(12px);transition:opacity .5s,transform .5s,border-color .2s;transition-delay:calc(var(--i,0)*90ms)}.in .tl li,.in .stages li{opacity:1;transform:none}.tl li:hover{border-color:var(--ac)}
+.stages li.on{animation:glow 2.8s ease-in-out infinite}@keyframes glow{50%{box-shadow:0 0 16px rgba(47,155,255,.55)}}
+.bar #links a,.bar summary{padding:6px 2px}@media(max-width:860px){#links a,summary{padding:10px 0;font-size:16px}}
+@media(prefers-reduced-motion:reduce){.wv svg,.trace path,.stages li.on{animation:none!important}.trace path{stroke-dashoffset:0}.trip{opacity:1;animation:none}.tl li,.stages li,.rv{opacity:1!important;transform:none!important}h2::after{width:48px}}
