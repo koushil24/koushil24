@@ -1,0 +1,29 @@
+name: Unzip uploaded site
+on:
+  push:
+    paths:
+      - '*.zip'
+permissions:
+  contents: write
+  pages: write
+jobs:
+  unzip:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Extract zip into the repository
+        run: |
+          shopt -s nullglob
+          files=(*.zip)
+          if [ ${#files[@]} -eq 0 ]; then echo "No zip found"; exit 0; fi
+          for f in "${files[@]}"; do unzip -o "$f" -x ".github/*"; rm "$f"; done
+          git config user.name "github-actions"
+          git config user.email "actions@github.com"
+          git add -A
+          git commit -m "Extract uploaded zip" || exit 0
+          git push
+      - name: Ask GitHub Pages to rebuild
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: gh api -X POST repos/${{ github.repository }}/pages/builds || true
+        
