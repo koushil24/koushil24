@@ -10,7 +10,10 @@ D.projects = {
      "stack": "Community project",
      "status": "Live",
      "url": "https://koushil24.github.io/aigiri-geleyara-balaga/",
-     "did": "Creative & Digital Coordinator: website development, posters and designs, WhatsApp communication, event digital work and ground support."
+     "did": "Creative & Digital Coordinator: website development, posters and designs, WhatsApp communication, event digital work and ground support.",
+     "img": "assets/images/projects/aigiri.jpg",
+     "alt": "Screenshot of the AIGIRI GELEYARA BALAGA website",
+     "pos": "top"
     },
     {
      "name": "K_24 Karnataka Post Trails",
@@ -18,14 +21,20 @@ D.projects = {
      "stack": "GitHub Pages",
      "status": "Live",
      "url": "https://koushil24.github.io/k24-karnataka-post-trails/",
-     "did": "Designing and building the site; it is being improved in stages."
+     "did": "Designing and building the site; it is being improved in stages.",
+     "img": "assets/images/projects/post-trails.jpg",
+     "alt": "Screenshot of the K_24 Karnataka Post Trails website",
+     "pos": "top"
     },
     {
      "name": "K_24 Recipe Lab",
      "text": "A food and recipe page sharing recipes, cooking ideas and food content.",
      "stack": "Instagram page",
      "status": "Live",
-     "url": "https://www.instagram.com/k_24_recipe_lab"
+     "url": "https://www.instagram.com/k_24_recipe_lab",
+     "img": "assets/images/projects/recipe-lab.jpg",
+     "alt": "Screenshot of the K_24 Recipe Lab Instagram page",
+     "pos": "center"
     },
     {
      "name": "Koushil's Portfolio",
@@ -33,7 +42,10 @@ D.projects = {
      "stack": "HTML, CSS, JavaScript, GitHub Pages; built with AI assistance",
      "status": "Live, being upgraded",
      "url": "https://koushil24.github.io/",
-     "did": "Designing and building it step by step."
+     "did": "Designing and building it step by step.",
+     "img": "assets/images/projects/portfolio.jpg",
+     "alt": "Screenshot of this portfolio website",
+     "pos": "top"
     }
    ]
   },
@@ -46,7 +58,10 @@ D.projects = {
      "stack": "HTML, CSS, JavaScript, GitHub Pages; built with AI assistance",
      "status": "In development",
      "url": "https://koushil24.github.io/K24-Electrical/",
-     "did": "Built the website structure, UI, learning roadmap and initial content framework."
+     "did": "Built the website structure, UI, learning roadmap and initial content framework.",
+     "img": "assets/images/projects/electrical.jpg",
+     "alt": "Screenshot of the K_24 Electrical website",
+     "pos": "top"
     },
     {
      "name": "K_24 AI for My Career",
@@ -54,7 +69,10 @@ D.projects = {
      "stack": "ChatGPT, Claude, GitHub Pages; AI-assisted development",
      "status": "In development",
      "url": "https://koushil24.github.io/ai-for-my-career/",
-     "did": "Built the learning roadmap, website structure, AI-learning resources and career-focused content."
+     "did": "Built the learning roadmap, website structure, AI-learning resources and career-focused content.",
+     "img": "assets/images/projects/ai-career.jpg",
+     "alt": "Screenshot of the K_24 AI for My Career website",
+     "pos": "top"
     },
     {
      "name": "K_24 AGRI",
@@ -62,7 +80,10 @@ D.projects = {
      "stack": "GitHub Pages",
      "status": "In development",
      "url": "https://koushil24.github.io/k24-agri/",
-     "did": "Designing and building the site."
+     "did": "Designing and building the site.",
+     "img": "assets/images/projects/agri.jpg",
+     "alt": "Screenshot of the K_24 AGRI website",
+     "pos": "top"
     },
     {
      "name": "K_24 WORKFORCE",
@@ -70,7 +91,10 @@ D.projects = {
      "stack": "GitHub Pages",
      "status": "In development",
      "url": "https://koushil24.github.io/k24-workforce/",
-     "did": "Designing and building the site."
+     "did": "Designing and building the site.",
+     "img": "assets/images/projects/workforce.jpg",
+     "alt": "Screenshot of the K_24 WORKFORCE website",
+     "pos": "top"
     }
    ]
   },
@@ -83,7 +107,10 @@ D.projects = {
      "stack": "Co-author, IJCRT Vol. 13 Issue 5, May 2025",
      "status": "Published",
      "url": "https://ijcrt.org/viewpaperforall.php?paper=IJCRT25A5419",
-     "did": "Team member: development, documentation and research."
+     "did": "I was the main person behind the prototype working model: its design and development, built by myself with the help of my teammates.",
+     "img": "assets/images/projects/eco-plasma.jpg",
+     "alt": "Prototype working model of the Eco Smart Plasma System",
+     "pos": "center"
     },
     {
      "name": "Smart Entry Counter",
@@ -91,7 +118,10 @@ D.projects = {
      "stack": "Co-author, IJCRT Vol. 12 Issue 9, Sep 2024",
      "status": "Published",
      "url": "https://ijcrt.org/viewpaperforall.php?paper=IJCRTAO02036",
-     "did": "Team member: development, implementation, testing and documentation."
+     "did": "I was the main person behind the prototype working model: its design and development, built by myself with the help of my teammates.",
+     "img": "assets/images/projects/entry-counter.jpg",
+     "alt": "Prototype working model of the Smart Entry Counter",
+     "pos": "center"
     },
     {
      "name": "Solar Powered Pesty Spray",
@@ -99,7 +129,10 @@ D.projects = {
      "stack": "Team project",
      "status": "",
      "url": "",
-     "did": "Team member: electrical/solar system, implementation and testing."
+     "did": "I was the main person behind the prototype working model: its design and development, built by myself with the help of my teammates.",
+     "img": "assets/images/projects/pesty-spray.jpg",
+     "alt": "Prototype working model of the Solar Powered Pesty Spray",
+     "pos": "40%"
     }
    ]
   }
