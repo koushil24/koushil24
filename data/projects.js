@@ -41,7 +41,7 @@ D.projects = {
      "text": "This personal portfolio: my engineering journey, projects and AI × Electrical story.",
      "stack": "HTML, CSS, JavaScript, GitHub Pages; built with AI assistance",
      "status": "Live, being upgraded",
-     "url": "https://koushil24.github.io/",
+     "url": "https://koushil24.github.io/koushil24/index.html",
      "did": "Designing and building it step by step.",
      "img": "assets/images/projects/portfolio.jpg",
      "alt": "Screenshot of this portfolio website",
