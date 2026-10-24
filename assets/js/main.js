@@ -2,7 +2,7 @@
 var P=D.profile,$=function(i){return document.getElementById(i)},E=function(s){var d=document.createElement('div');d.textContent=s;return d.innerHTML};
 function L(u,t){return '<a href="'+u+'" target="_blank" rel="noopener">'+t+'</a>'}
 $('h-name').innerHTML='Koushil <span>R Gowda</span>';
-$('h-st').textContent=P.statement;$('h-now').textContent=P.now;$('gl').innerHTML=P.glance.map(function(g){return '<a href="'+g[2]+'"><dt>'+E(g[0])+'</dt><dd>'+E(g[1])+'</dd></a>'}).join('');$('h-badge').textContent=P.badge;
+$('h-now').textContent=P.now;$('gl').innerHTML=P.glance.map(function(g){return '<a href="'+g[2]+'"><dt>'+E(g[0])+'</dt><dd>'+E(g[1])+'</dd></a>'}).join('');$('h-badge').textContent=P.badge;
 $('h-resume').href=P.resume;$('r-v').href=P.resume;$('r-dl').href=P.resume;
 $('h-soc').innerHTML=L(P.github,'GitHub')+L(P.linkedin,'LinkedIn')+'<a href="mailto:'+P.email+'">Email</a>';
 $('a-photo').src=P.photo;
@@ -13,8 +13,7 @@ $('a-text').innerHTML=P.about.map(function(t){return '<p>'+E(t)+'</p>'}).join(''
 $('tl').innerHTML=D.journey.map(function(j){return '<li><b>'+E(j[0])+'</b><strong>'+E(j[1])+'</strong><br><span>'+E(j[2])+'</span></li>'}).join('');
 $('sk').innerHTML=D.skills.map(function(s){return '<div class="sk"><b>'+E(s.group)+'</b><span>'+E(s.items)+'</span></div>'}).join('');
 var X=D.experience,F=X[0];$('ex').innerHTML='<article class="feat"><p class="s">Current role | '+E(F.dates)+'</p><h3>'+E(F.title)+'</h3><p>'+E(F.org)+'</p><ul>'+F.points.map(function(t){return '<li>'+E(t)+'</li>'}).join('')+'</ul><ul class="chips"><li>Protection relay testing</li><li>Numerical protection relays</li><li>Electrical protection concepts</li></ul></article><details class="more"><summary>Earlier experience ('+(X.length-1)+' roles)</summary>'+X.slice(1).map(function(x){return '<div class="job"><h3>'+E(x.title)+'</h3><p>'+E(x.org)+' | '+E(x.dates)+'</p><ul>'+x.points.map(function(t){return '<li>'+E(t)+'</li>'}).join('')+'</ul></div>'}).join('')+'</details>';
-$('pr').innerHTML=D.projects.cards.map(function(c,i){return '<article class="card'+(i<2?' f':'')+'"><h3>'+E(c.name)+'</h3><p>'+E(c.text)+'</p>'+(c.did?'<p><b>My contribution:</b> '+E(c.did)+'</p>':'')+'<p class="s">'+E(c.stack)+(c.status?' | '+E(c.status):'')+'</p>'+(c.url?'<p>'+L(c.url,'View '+E(c.name)+' &rarr;')+'</p>':'')+'</article>'}).join('');
-$('soon').textContent='Coming soon: '+D.projects.soon.join(', ');
+$('pr').innerHTML=D.projects.groups.map(function(g,gi){return '<h3 class="gt">'+E(g.title)+'</h3><div class="grid">'+g.cards.map(function(c,i){var dev=g.title=='In development';return '<article class="card'+(gi==0&&i<2?' f':'')+'">'+(dev?'<span class="tag">IN DEVELOPMENT</span>':'')+'<h3>'+E(c.name)+'</h3><p>'+E(c.text)+'</p>'+(c.did?'<p><b>My contribution:</b> '+E(c.did)+'</p>':'')+'<p class="s">'+E(c.stack)+(c.status&&!dev?' | '+E(c.status):'')+'</p>'+(c.url?'<p>'+L(c.url,'View '+E(c.name)+' &rarr;')+'</p>':'')+'</article>'}).join('')+'</div>'}).join('');
 $('st').innerHTML=D.ai.stages.map(function(s,i){return '<li'+(i==D.ai.current?' class="on" aria-current="true"':'')+'>'+E(s)+'</li>'}).join('');
 $('ai-u').innerHTML=D.ai.uses.map(function(u){return '<div class="card"><p>'+E(u)+'</p></div>'}).join('')+'<div class="card"><p class="s">AI tools currently used</p><p>'+E(D.ai.tools)+'</p></div>';
 function chips(a){return a.map(function(t){return '<li>'+E(t)+'</li>'}).join('')}
