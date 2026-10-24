@@ -5,22 +5,6 @@ D.projects = {
    "title": "Live projects",
    "cards": [
     {
-     "name": "K_24 Electrical",
-     "text": "An educational platform to learn Electrical Engineering from fundamentals to advanced topics.",
-     "stack": "HTML, CSS, JavaScript, GitHub Pages; built with AI assistance",
-     "status": "Live, in progress",
-     "url": "https://koushil24.github.io/K24-Electrical/",
-     "did": "Built the website structure, UI, learning roadmap and initial content framework."
-    },
-    {
-     "name": "K_24 AI for My Career",
-     "text": "A personal AI-learning platform on applying AI to Electrical Engineering, Power Systems, Protection and Automation.",
-     "stack": "ChatGPT, Claude, GitHub Pages; AI-assisted development",
-     "status": "Live, in progress",
-     "url": "https://koushil24.github.io/ai-for-my-career/",
-     "did": "Built the learning roadmap, website structure, AI-learning resources and career-focused content."
-    },
-    {
      "name": "AIGIRI GELEYARA BALAGA",
      "text": "A Mysuru community group for cultural activities and celebrations.",
      "stack": "Community project",
@@ -29,12 +13,12 @@ D.projects = {
      "did": "Creative & Digital Coordinator: website development, posters and designs, WhatsApp communication, event digital work and ground support."
     },
     {
-     "name": "K_24 Portfolio",
-     "text": "This personal portfolio: my engineering journey, projects and AI × Electrical story.",
-     "stack": "HTML, CSS, JavaScript, GitHub Pages; built with AI assistance",
-     "status": "Live, being upgraded",
-     "url": "https://koushil24.github.io/",
-     "did": "Designing and building it step by step."
+     "name": "K_24 Karnataka Post Trails",
+     "text": "A Karnataka Philately Passport (100 post-office locations) and travel journey blog.",
+     "stack": "GitHub Pages",
+     "status": "Live",
+     "url": "https://koushil24.github.io/k24-karnataka-post-trails/",
+     "did": "Designing and building the site; it is being improved in stages."
     },
     {
      "name": "K_24 Recipe Lab",
@@ -42,6 +26,14 @@ D.projects = {
      "stack": "Instagram page",
      "status": "Live",
      "url": "https://www.instagram.com/k_24_recipe_lab"
+    },
+    {
+     "name": "Koushil's Portfolio",
+     "text": "This personal portfolio: my engineering journey, projects and AI × Electrical story.",
+     "stack": "HTML, CSS, JavaScript, GitHub Pages; built with AI assistance",
+     "status": "Live, being upgraded",
+     "url": "https://koushil24.github.io/",
+     "did": "Designing and building it step by step."
     }
    ]
   },
@@ -49,12 +41,20 @@ D.projects = {
    "title": "In development",
    "cards": [
     {
-     "name": "K_24 Karnataka Post Trails",
-     "text": "A Karnataka Philately Passport (100 post-office locations) and travel journey blog.",
-     "stack": "GitHub Pages",
+     "name": "K_24 Electrical",
+     "text": "An educational platform to learn Electrical Engineering from fundamentals to advanced topics.",
+     "stack": "HTML, CSS, JavaScript, GitHub Pages; built with AI assistance",
      "status": "In development",
-     "url": "https://koushil24.github.io/k24-karnataka-post-trails/",
-     "did": "Designing and building the site."
+     "url": "https://koushil24.github.io/K24-Electrical/",
+     "did": "Built the website structure, UI, learning roadmap and initial content framework."
+    },
+    {
+     "name": "K_24 AI for My Career",
+     "text": "A personal AI-learning platform on applying AI to Electrical Engineering, Power Systems, Protection and Automation.",
+     "stack": "ChatGPT, Claude, GitHub Pages; AI-assisted development",
+     "status": "In development",
+     "url": "https://koushil24.github.io/ai-for-my-career/",
+     "did": "Built the learning roadmap, website structure, AI-learning resources and career-focused content."
     },
     {
      "name": "K_24 AGRI",

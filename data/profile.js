@@ -57,27 +57,27 @@ D.profile = {
   [
    "Now",
    "Technical Assistant, AVANA Electrosystems Ltd.",
-   "#experience"
+   "about.html#experience"
   ],
   [
    "Focus",
    "Numerical protection relay testing",
-   "#experience"
+   "about.html#experience"
   ],
   [
    "Learning",
    "IEC 61850 / GOOSE, SCADA and automation",
-   "#learning"
+   "skills.html#learning"
   ],
   [
    "Building",
    "K_24 Electrical and K_24 AI for My Career",
-   "#projects"
+   "projects.html"
   ],
   [
    "AI stage",
    "AI-Assisted Engineer",
-   "#ai"
+   "ai.html"
   ]
  ]
 };
